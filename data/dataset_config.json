@@ -1,0 +1,7 @@
+{
+  "dataset_name": "xlangai/spider",
+  "train_samples": 7000,
+  "validation_samples": 1034,
+  "format": "qwen_chat",
+  "model_target": "Qwen/Qwen1.5-1.8B-Chat"
+}

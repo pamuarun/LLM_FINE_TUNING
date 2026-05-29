@@ -1,0 +1,53 @@
+# Python environment folders
+venv/
+ENV/
+env/
+.env/
+.sql_finetune_env/
+sql_finetune_env/
+.venv/
+PyEnv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Dataset / cache files
+data/spider_formatted/
+*.arrow
+*.parquet
+*.db
+*.sqlite
+
+# Model outputs and checkpoints
+outputs/
+wandb/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+*.env
+
+# Misc
+*.egg-info/
+.dist-info/
+build/
+dist/
+
+# Ignore hugggingface cache and downloaded package files
+# (if you use a separate cache directory, adjust as needed)
+.huggingface/

@@ -1,0 +1,15 @@
+{
+  "baseline": {
+    "exact_match_accuracy": 0.0,
+    "avg_token_match": 34.39
+  },
+  "finetuned": {
+    "exact_match_accuracy": 6.0,
+    "avg_token_match": 54.75
+  },
+  "improvement": {
+    "exact_match_delta": 6.0,
+    "token_match_delta": 20.36
+  },
+  "mmlu_accuracy": 16.0
+}
