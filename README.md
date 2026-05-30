@@ -11,6 +11,38 @@ This project fine-tunes Qwen/Qwen1.5-1.8B-Chat using QLoRA (Quantized Low-Rank A
 
 ---
 
+
+## Project Structure
+
+```text
+README.md                       # Project overview and documentation
+requirements.txt                # Python dependency list
+LICENSE                         # MIT license
+fix_notebook.py                 # Cleanup helper for notebook metadata
+
+01_dataset_preparation.ipynb     # Prepare Spider dataset, format Qwen chat prompts
+02_baseline_evaluation.ipynb     # Evaluate base Qwen model on SQL generation
+03_qlora_finetuning.ipynb       # Fine-tune model with QLoRA adapters
+04_evaluation.ipynb             # Compare baseline vs fine-tuned model
+05_publishing.ipynb             # Publish adapters and model card to HF hub
+
+data/                           # Processed datasets and evaluation outputs
+  train.json
+  validation.json
+  dataset_config.json
+  baseline_results.json
+  finetuned_results.json
+  comparison_results.json
+  spider_formatted/              # Saved HuggingFace DatasetDict
+
+outputs/                        # Fine-tuning checkpoints and final adapter
+  qwen-sql-qlora/
+    checkpoint-*/
+    final_adapter/
+
+wandb/                          # Weights & Biases run logs and summaries
+```
+
 ## 1. Objective
 
 ### What Task Are We Fine-Tuning For?
