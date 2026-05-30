@@ -270,16 +270,18 @@ huggingface-cli login
 | 📂 Spider Dataset | [xlangai/spider](https://huggingface.co/datasets/xlangai/spider) |
 
 ---
+## View Notebooks
 
-## References
-
-1. Hu, E. et al. (2021). LoRA: Low-Rank Adaptation of Large Language Models. arXiv:2106.09685
-2. Dettmers, T. et al. (2023). QLoRA: Efficient Finetuning of Quantized LLMs. arXiv:2305.14314
-3. Yu, T. et al. (2018). Spider: A Large-Scale Human-Labeled Dataset for Text-to-SQL. arXiv:1809.08887
-4. Qwen Team (2024). Qwen1.5: Expanding Language Model Series. Hugging Face.
-5. Hendrycks, D. et al. (2021). Measuring Massive Multitask Language Understanding. ICLR 2021.
+| Notebook | Link |
+|---|---|
+| 01 - Dataset Preparation | [Open in NBViewer](https://nbviewer.org/github/pamuarun/LLM_FINE_TUNING/blob/main/01_dataset_preparation.ipynb) |
+| 02 - Baseline Evaluation | [Open in NBViewer](https://nbviewer.org/github/pamuarun/LLM_FINE_TUNING/blob/main/02_baseline_evaluation.ipynb) |
+| 03 - QLoRA Fine-Tuning | [Open in NBViewer](https://nbviewer.org/github/pamuarun/LLM_FINE_TUNING/blob/main/03_qlora_finetuning.ipynb) |
+| 04 - Evaluation | [Open in NBViewer](https://nbviewer.org/github/pamuarun/LLM_FINE_TUNING/blob/main/04_evaluation.ipynb) |
+| 05 - Publishing | [Open in NBViewer](https://nbviewer.org/github/pamuarun/LLM_FINE_TUNING/blob/main/05_publishing.ipynb) |
 
 ---
+
 
 ## Author
 
