@@ -11,6 +11,18 @@ This project fine-tunes Qwen/Qwen1.5-1.8B-Chat using QLoRA (Quantized Low-Rank A
 
 ---
 
+## View Notebooks
+
+| Notebook | Link |
+|---|---|
+| 01 - Dataset Preparation | [Open in NBViewer](https://nbviewer.org/github/pamuarun/LLM_FINE_TUNING/blob/main/01_dataset_preparation.ipynb) |
+| 02 - Baseline Evaluation | [Open in NBViewer](https://nbviewer.org/github/pamuarun/LLM_FINE_TUNING/blob/main/02_baseline_evaluation.ipynb) |
+| 03 - QLoRA Fine-Tuning | [Open in NBViewer](https://nbviewer.org/github/pamuarun/LLM_FINE_TUNING/blob/main/03_qlora_finetuning.ipynb) |
+| 04 - Evaluation | [Open in NBViewer](https://nbviewer.org/github/pamuarun/LLM_FINE_TUNING/blob/main/04_evaluation.ipynb) |
+| 05 - Publishing | [Open in NBViewer](https://nbviewer.org/github/pamuarun/LLM_FINE_TUNING/blob/main/05_publishing.ipynb) |
+
+---
+
 ## 1. Objective
 
 ### What Task Are We Fine-Tuning For?
@@ -270,17 +282,7 @@ huggingface-cli login
 | 📂 Spider Dataset | [xlangai/spider](https://huggingface.co/datasets/xlangai/spider) |
 
 ---
-## View Notebooks
 
-| Notebook | Link |
-|---|---|
-| 01 - Dataset Preparation | [Open in NBViewer](https://nbviewer.org/github/pamuarun/LLM_FINE_TUNING/blob/main/01_dataset_preparation.ipynb) |
-| 02 - Baseline Evaluation | [Open in NBViewer](https://nbviewer.org/github/pamuarun/LLM_FINE_TUNING/blob/main/02_baseline_evaluation.ipynb) |
-| 03 - QLoRA Fine-Tuning | [Open in NBViewer](https://nbviewer.org/github/pamuarun/LLM_FINE_TUNING/blob/main/03_qlora_finetuning.ipynb) |
-| 04 - Evaluation | [Open in NBViewer](https://nbviewer.org/github/pamuarun/LLM_FINE_TUNING/blob/main/04_evaluation.ipynb) |
-| 05 - Publishing | [Open in NBViewer](https://nbviewer.org/github/pamuarun/LLM_FINE_TUNING/blob/main/05_publishing.ipynb) |
-
----
 
 
 ## Author
